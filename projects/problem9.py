@@ -12,6 +12,6 @@ def pytriplet(n):
                 b = x
                 a = y
     c = n - a - b
-    print(a, b, c)
+    return a*b*c
 
-pytriplet(1000)
+print(pytriplet(1000))
